@@ -1,0 +1,78 @@
+<p id="notice"><%= notice %></p>
+<%#= image_tag current_user.image.url(:small) %>
+<p>
+
+
+  <strong>Title:</strong>
+  <%= @movie.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @movie.description %>
+</p>
+
+<p>
+  <strong>Duration:</strong>
+  <%= @movie.duration %>
+</p>
+
+<p>
+  <strong>Director:</strong>
+  <%= @movie.director %>
+</p>
+
+<p>
+  <strong>Average Rating:</strong>
+  <%#= @users.collect(&:score).sum.to_f/@users.length if @users.length > 0 %>
+  <%#= @movie.reviews.collect(&:rating).sum.to_f/@movie.reviews.length if @movie.reviews.length > 0 %>
+  <%#= Review.where(:movie_id => 10).count(:comment)%>
+</p>
+
+
+<ul>
+	<% @movie.reviews.each do |review| %>
+	<%#= link_to "Edit", edit_user_item_path(@user, item) %>
+	<%= image_tag review.user.image.url(:thumb) %><br>
+	<em> <%= review.user.username %> commented: </em>
+
+	<li><%= review.comment %> 	<em> (<%= time_ago_in_words(review.created_at) %> ago)</em>	</li>
+	<% if current_user %>
+
+	<%#= review.user_id %>
+
+	<% end %>
+	<div class = "star-rating" data-number = <%= review.rating %> >
+	</div> 
+	<%#= link_to "Edit", edit_user_item_path(@user, item) %>
+
+	<% if current_user %>
+	<% if current_user.id == review.user.id %>
+		<%= link_to "Edit Review", edit_movie_review_path(@movie, review) %><br>
+
+	<% end %>
+	<% end %>
+
+	
+	<%#= link_to "Edit Review", edit_movie_review_path(@movie, review) %><br>
+	<br>
+	<% end %>
+</ul>
+
+<%= render partial: 'reviews/new' %>
+
+<%= link_to 'Edit', edit_movie_path(@movie) %> |
+<%= link_to 'Back', movies_path %>
+
+<script>
+	$('.star-rating').raty({
+		path: '/assets/',
+		readOnly: true, 
+		score: function () {
+
+			return $(this).attr('data-number');
+		}
+
+
+	})
+</script>

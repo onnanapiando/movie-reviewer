@@ -1,0 +1,8 @@
+D, [2015-05-23T13:39:26.154745 #16962] DEBUG -- :   [1m[36m (107.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL) [0m
+D, [2015-05-23T13:39:26.221191 #16962] DEBUG -- :   [1m[35m (52.3ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+D, [2015-05-23T13:39:26.224741 #16962] DEBUG -- :   [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+I, [2015-05-23T13:39:26.232421 #16962]  INFO -- : Migrating to CreateMovies (20150523050743)
+D, [2015-05-23T13:39:26.233617 #16962] DEBUG -- :   [1m[35m (0.3ms)[0m  BEGIN
+D, [2015-05-23T13:39:26.312616 #16962] DEBUG -- :   [1m[36m (77.4ms)[0m  [1mCREATE TABLE "movies" ("id" serial primary key, "title" character varying, "description" text, "duration" character varying, "director" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+D, [2015-05-23T13:39:26.322064 #16962] DEBUG -- :   [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20150523050743"]]
+D, [2015-05-23T13:39:26.332609 #16962] DEBUG -- :   [1m[36m (10.1ms)[0m  [1mCOMMIT[0m
