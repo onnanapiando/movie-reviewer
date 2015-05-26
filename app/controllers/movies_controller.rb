@@ -4,6 +4,13 @@ class MoviesController < ApplicationController
 
   def index
       @movies = Movie.all
+
+    if params[:query].present?
+      @movies = Movie.search(params[:query], page: params[:page])
+    else
+      @movies = Movie.all.page params[:page]
+    end
+
   end
 
   def show
