@@ -11,11 +11,17 @@ class MoviesController < ApplicationController
       @movies_search = Movie.find_by(params[:title])
     end
 
-    #@movies_search = 
+
 
   end
 
   def show
+    @reviews = Review.where(movie_id: @movie_id)
+    if @reviews.blank?
+      @average_rating = 0
+    else
+      @average_rating = @reviews.average(:rating).round
+    end
   end
 
   # GET /movies/new

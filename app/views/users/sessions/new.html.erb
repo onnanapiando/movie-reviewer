@@ -1,7 +1,12 @@
-<h2>Log in</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-md-offset-4">
+            <div class="account-box">
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
- 
+
+<form class="form-signin" action="#">
+<h2>Log in</h2>
 
   <div class="field">
     <%= f.label :login %><br />
@@ -26,3 +31,10 @@
 <% end %>
 
 <%= render "users/shared/links" %>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

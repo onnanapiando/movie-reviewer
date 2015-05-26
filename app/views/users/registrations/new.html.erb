@@ -1,8 +1,16 @@
-<h2>Sign up</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 col-md-offset-4">
+            <div class="account-box">
+
+
+
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { multipart: true}) do |f| %>
 
   <%= devise_error_messages! %>
+<form class="form-signin" action="#">
+<h2>Sign up</h2>
 
   <div class="field">
     <%= f.label :image %><br>
@@ -39,3 +47,9 @@
 <% end %>
 
 <%= render "users/shared/links" %>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>

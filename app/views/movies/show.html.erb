@@ -26,8 +26,8 @@
 <p>
   <strong>Average Rating:</strong>
 <%#= Review.average(:rating).to_f %>
-
-
+<div class = "star-rating" data-number = <%= @average_rating %> >
+</div>
  <strong>Comments:</strong>
 <%#= pluralize @movie.reviews.length, "comment" %>
 <%= pluralize(@movie.reviews.count, "comment") %>
