@@ -1,5 +1,6 @@
 <p id="notice"><%= notice %></p>
 <%#= image_tag current_user.image.url(:small) %>
+<%= image_tag @movie.image.url(:medium) %>
 <p>
 
 
@@ -37,6 +38,7 @@
 
 
 <ul>
+	<%# @movie.reviews.each do |review| %>
 	<% @movie.reviews.each do |review| %>
 	<%#= link_to "Edit", edit_user_item_path(@user, item) %>
 	<%= image_tag review.user.image.url(:thumb) %><br>

@@ -13,9 +13,19 @@
  *= require_tree .
  *= require_self
  *= require jquery.raty
+ *= require bootstrap.min
  */
 
 body { padding-top: 100px; }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../assets/glyphicons-halflings-regular.eot');
+  src: url('../assets/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), 
+       url('../assets/glyphicons-halflings-regular.woff') format('woff'), 
+       url('../assets/glyphicons-halflings-regular.ttf') format('truetype'), 
+       url('../assets/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
