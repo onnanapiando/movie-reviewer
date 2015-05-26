@@ -44,5 +44,9 @@ group :development, :test do
   gem 'devise', '~> 3.4.1'
   gem 'paperclip', '~> 4.2.1'
   gem 'searchkick', '~> 0.8.7'
+
+  gem 'elasticsearch-model', '~> 0.1.7'
+  gem 'elasticsearch-rails', '~> 0.1.7'
+
 end
 
