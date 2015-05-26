@@ -3,8 +3,8 @@
 <head>
   <title>MovieReviewer</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-<link rel="stylesheet" href="../movie-reviewer/vendor/assets/stylesheets/bootstrap.css">
-<link rel="stylesheet" href="../movie-reviewer/vendor/assets/stylesheets/bootstrap-theme.css">
+<link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css">
+<link rel="stylesheet" href="//railsgirls.com/assets/bootstrap-theme.css">
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
@@ -20,7 +20,7 @@
             <div id="logo" class="navbar-brand"> <%=link_to "Movie Reviewer", root_path %></div>
             <% if user_signed_in? %>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><%= current_user.email %></li>
+                    <li><%= link_to "Welcome back, " + current_user.username + "!", edit_user_registration_path %></li>
                     <li><%= link_to "Account", edit_user_registration_path %></li>
                     <li><%= link_to "Sign out", destroy_user_session_path, method: :delete %></li>
                 </ul>
@@ -43,7 +43,7 @@
     Movie Reviewer 2015
   </div>
 </footer>
-<script  src="/vendor/assets/javascripts/bootstrap.js"></script>
+<script src="//railsgirls.com/assets/bootstrap.js"></script>
 
 
 </body>

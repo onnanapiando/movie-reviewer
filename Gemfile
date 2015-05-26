@@ -43,5 +43,6 @@ group :development, :test do
   gem 'spring'
   gem 'devise', '~> 3.4.1'
   gem 'paperclip', '~> 4.2.1'
+  gem 'searchkick', '~> 0.8.7'
 end
 

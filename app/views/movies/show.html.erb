@@ -24,6 +24,12 @@
 
 <p>
   <strong>Average Rating:</strong>
+<%#= Review.average(:rating).to_f %>
+
+
+ <strong>Comments:</strong>
+<%#= pluralize @movie.reviews.length, "comment" %>
+<%= pluralize(@movie.reviews.count, "comment") %>
   <%#= @users.collect(&:score).sum.to_f/@users.length if @users.length > 0 %>
   <%#= @movie.reviews.collect(&:rating).sum.to_f/@movie.reviews.length if @movie.reviews.length > 0 %>
   <%#= Review.where(:movie_id => 10).count(:comment)%>
@@ -35,8 +41,8 @@
 	<%#= link_to "Edit", edit_user_item_path(@user, item) %>
 	<%= image_tag review.user.image.url(:thumb) %><br>
 	<em> <%= review.user.username %> commented: </em>
-
 	<li><%= review.comment %> 	<em> (<%= time_ago_in_words(review.created_at) %> ago)</em>	</li>
+
 	<% if current_user %>
 
 	<%#= review.user_id %>

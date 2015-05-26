@@ -8,10 +8,12 @@
 <%#= form_for([@movie, @movie.reviews.edit]) do |f| %>
 <%= form_for([@movie, @review], :html => { :multipart => true }) do |f| %>
 <div>
-  <div id="star-rating" data-number = <%= @review.rating %> ></div>
+  <div id="star-rating" data-number = <% @review.rating %> ></div>
 </div>
 
+ rating:<%= @review.rating %> 
 
+  <%#= @review.average(:ratings) %>
 
  
   <div class="field">
