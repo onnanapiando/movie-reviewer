@@ -48948,3 +48948,1314 @@ Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde4
 
 
 Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 14:38:53 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 67ms (Views: 65.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 14:41:01 +0800
+
+
+Started GET "/search" for 127.0.0.1 at 2015-05-26 14:46:33 +0800
+Processing by SearchController#search as HTML
+  Rendered search/search.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2015-05-26 14:48:24 +0800
+Processing by SearchController#search as HTML
+  Rendered search/search.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 73ms (Views: 71.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=The+Grey" for 127.0.0.1 at 2015-05-26 14:48:30 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"The Grey"}
+  [1m[33mMovie Search (22.9ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 90ms (Views: 65.3ms | Searchkick: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-05-26 14:48:33 +0800
+Processing by Devise::SessionsController#new as HTML
+  Rendered users/shared/_links.html.erb (0.4ms)
+  Rendered users/sessions/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 70ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-05-26 14:48:37 +0800
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XjcjOFaYe+jhK8DNX//kS5hrReioMg20q0oB7huAK+NjKOWvkq8pKmYTTiDabB+QbT6UdeD86Dzgly7qyMmDVw==", "user"=>{"login"=>"onnapiando@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (lower(username) = 'onnapiando@gmail.com' OR lower(email) = 'onnapiando@gmail.com')  ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (10.6ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = $5[0m  [["last_sign_in_at", "2015-05-26 06:00:56.857381"], ["current_sign_in_at", "2015-05-26 06:48:37.157700"], ["sign_in_count", 17], ["updated_at", "2015-05-26 06:48:37.159128"], ["id", 1]]
+  [1m[35m (9.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 154ms (ActiveRecord: 21.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 14:48:37 +0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 68ms (Views: 65.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2015-05-26 14:48:45 +0800
+Processing by SearchController#search as HTML
+  Rendered search/search.html.erb within layouts/application (1.7ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 63ms (Views: 62.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=The+Grey" for 127.0.0.1 at 2015-05-26 14:48:50 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"The Grey"}
+  [1m[33mMovie Search (37.0ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (2.7ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 131ms (Views: 91.9ms | Searchkick: 37.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=The+Grey" for 127.0.0.1 at 2015-05-26 14:50:05 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"The Grey"}
+  [1m[33mMovie Search (23.8ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (1.4ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 87ms (Views: 61.2ms | Searchkick: 23.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=The+Grey" for 127.0.0.1 at 2015-05-26 14:50:34 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"The Grey"}
+  [1m[33mMovie Search (33.8ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (4.4ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 107ms (Views: 69.9ms | Searchkick: 33.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=The+Grey" for 127.0.0.1 at 2015-05-26 14:51:39 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"The Grey"}
+  [1m[33mMovie Search (18.1ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (1.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 90ms (Views: 70.0ms | Searchkick: 18.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/search" for 127.0.0.1 at 2015-05-26 14:52:23 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SearchController#search as HTML
+  Rendered search/search.html.erb within layouts/application (68.0ms)
+  [1m[35mUser Load (0.7ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 472ms (Views: 426.6ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=The+Grey" for 127.0.0.1 at 2015-05-26 14:52:51 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"The Grey"}
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT  "movies".* FROM "movies"  ORDER BY "movies"."id" ASC LIMIT 1000[0m
+  [1m[33mMovie Search (27.0ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (3.3ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 163ms (Views: 67.3ms | Searchkick: 27.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=The+Grey" for 127.0.0.1 at 2015-05-26 14:56:27 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"The Grey"}
+  [1m[33mMovie Search (14.6ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (5.2ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 82ms (Views: 65.2ms | Searchkick: 14.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:28 +0800
+
+
+Started GET "/search?utf8=%E2%9C%93&q=c" for 127.0.0.1 at 2015-05-26 14:56:31 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"c"}
+  [1m[33mMovie Search (21.4ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"c","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"c","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"c","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"c","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (2.3ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 88ms (Views: 64.9ms | Searchkick: 21.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=%2C%2C%2C" for 127.0.0.1 at 2015-05-26 14:56:36 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>",,,"}
+  [1m[33mMovie Search (102.3ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":",,,","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":",,,","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":",,,","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":",,,","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (1.5ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 173ms (Views: 69.5ms | Searchkick: 102.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=%2C%2C%2C" for 127.0.0.1 at 2015-05-26 14:56:56 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>",,,"}
+  [1m[33mMovie Search (12.1ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":",,,","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":",,,","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":",,,","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":",,,","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (0.6ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 77ms (Views: 62.8ms | Searchkick: 12.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 14:56:57 +0800
+
+
+Started GET "/search?utf8=%E2%9C%93&q=%2C%2C%2C" for 127.0.0.1 at 2015-05-26 14:57:11 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>",,,"}
+  [1m[33mMovie Search (19.7ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":",,,","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":",,,","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":",,,","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":",,,","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (2.2ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 84ms (Views: 62.2ms | Searchkick: 19.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 14:57:12 +0800
+
+
+Started GET "/search?utf8=%E2%9C%93&q=The+Grey&commit=Go" for 127.0.0.1 at 2015-05-26 14:57:17 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"The Grey", "commit"=>"Go"}
+  [1m[33mMovie Search (24.9ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"The Grey","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (2.9ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 102ms (Views: 75.0ms | Searchkick: 24.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=of+&commit=Go" for 127.0.0.1 at 2015-05-26 14:57:25 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"of ", "commit"=>"Go"}
+  [1m[33mMovie Search (17.9ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"of ","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"of ","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"of ","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"of ","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies" WHERE "movies"."id" = 3[0m
+  Rendered search/search.html.erb within layouts/application (5.4ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 89ms (Views: 69.5ms | Searchkick: 17.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=of+&commit=Go" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"of ", "commit"=>"Go"}
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT  "movies".* FROM "movies"  ORDER BY "movies"."id" ASC LIMIT 1000[0m
+  [1m[33mMovie Search (12.0ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"of ","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"of ","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"of ","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"of ","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies" WHERE "movies"."id" = 3
+  Rendered search/search.html.erb within layouts/application (5.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 174ms (Views: 87.5ms | Searchkick: 12.0ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 15:04:12 +0800
+
+
+Started GET "/search?utf8=%E2%9C%93&q=ass" for 127.0.0.1 at 2015-05-26 15:04:14 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"ass"}
+  [1m[33mMovie Search (29.7ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"ass","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"ass","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"ass","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"ass","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (3.0ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 97ms (Views: 64.3ms | Searchkick: 29.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/search?utf8=%E2%9C%93&q=dskadsja" for 127.0.0.1 at 2015-05-26 15:04:17 +0800
+Processing by SearchController#search as HTML
+  Parameters: {"utf8"=>"✓", "q"=>"dskadsja"}
+  [1m[33mMovie Search (96.3ms)[0m  curl http://localhost:9200/movies_development/_search?pretty -d '{"query":{"dis_max":{"queries":[{"match":{"_all":{"query":"dskadsja","operator":"and","boost":10,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"dskadsja","operator":"and","boost":10,"analyzer":"searchkick_search2"}}},{"match":{"_all":{"query":"dskadsja","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search"}}},{"match":{"_all":{"query":"dskadsja","operator":"and","boost":1,"fuzziness":1,"max_expansions":3,"analyzer":"searchkick_search2"}}}]}},"size":100000,"from":0,"fields":[]}'
+  Rendered search/search.html.erb within layouts/application (2.8ms)
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 164ms (Views: 65.1ms | Searchkick: 96.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 15:04:45 +0800
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  "movies".* FROM "movies" LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 83ms (Views: 80.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 15:07:02 +0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.5ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 73ms (Views: 70.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:02 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:02 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:02 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:02 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:02 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:03 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:03 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:03 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:03 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:03 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:03 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:03 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:03 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:03 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:03 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:03 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  "movies".* FROM "movies" LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mMovie Load (0.4ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 90ms (Views: 87.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:22 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 74ms (Views: 71.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 15:07:43 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  "movies".* FROM "movies"  ORDER BY "movies"."id" ASC LIMIT 1000
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 154ms (Views: 83.5ms | ActiveRecord: 5.0ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+
+Started GET "/system/users/images/000/000/001/smaller/download_%2811%29.jpg?1432527123" for 127.0.0.1 at 2015-05-26 15:08:30 +0800
+
+ActionController::RoutingError (No route matches [GET] "/system/users/images/000/000/001/smaller/download_%2811%29.jpg"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/onnana/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/onnana/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/onnana/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.4ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.8ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (52.6ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (21.7ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (43.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.5ms)[0m  SELECT  "movies".* FROM "movies"  ORDER BY "movies"."id" ASC LIMIT 1000
+  [1m[36mMovie Load (0.7ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.6ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (23.5ms)
+Completed 200 OK in 148ms (Views: 82.6ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+
+Started GET "/system/users/images/000/000/001/smaller/download_%2811%29.jpg?1432527123" for 127.0.0.1 at 2015-05-26 15:08:47 +0800
+
+ActionController::RoutingError (No route matches [GET] "/system/users/images/000/000/001/smaller/download_%2811%29.jpg"):
+  actionpack (4.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.2) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.1) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.1) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.1) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.1) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.1) lib/rails/application.rb:164:in `call'
+  rack (1.6.1) lib/rack/lock.rb:17:in `call'
+  rack (1.6.1) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.1) lib/rack/handler/webrick.rb:89:in `service'
+  /home/onnana/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/onnana/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/onnana/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.6ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (22.9ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/onnana/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (45.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  "movies".* FROM "movies"  ORDER BY "movies"."id" ASC LIMIT 1000
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 182ms (Views: 101.6ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:07 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:08 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:08 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 15:09:53 +0800
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  "movies".* FROM "movies" LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mMovie Load (0.3ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 72ms (Views: 69.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 15:09:54 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 15:10:01 +0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 77ms (Views: 73.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:01 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:01 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:02 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 15:10:34 +0800
+Processing by MoviesController#index as HTML
+  [1m[35mMovie Load (0.7ms)[0m  SELECT  "movies".* FROM "movies" LIMIT 1
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mMovie Load (0.5ms)[0m  SELECT "movies".* FROM "movies"
+  Rendered movies/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 103ms (Views: 98.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 15:10:35 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 108ms (Views: 105.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery.raty.self-87ed0aee892c20d60b699b233626d04034355bea2c9d0d27b7586c39cb9ba493.css?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/movies.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/search.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/reviews.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/scaffolds.self-5a5258f269affaf00aa988a4e7cabd5f6812082111fbb5eae475fc5cf5f1cd40.css?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/bootstrap.min.self-0cd0cfc036775cfc574906df0fecf0bcaea06f96cc08cd8eb0d963d19c389046.css?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/application.self-41c9df1ea95083316cdeeed1bf2f77e5954b1a64e8be0509a19c9c9a81a80068.css?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/bootstrap.min.self-f67c023496a233d8d3c37c997bab92b5b7c5b05e39f3fb88a287dcd4bcfbb98b.js?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/jquery.raty.self-628421be04f36f7a8fa8b9b884c6d7824d6f8bdeba4f172b131f15aa63f713e8.js?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/movies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/reviews.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/search.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/assets/application.self-44dc72337fbefc4f8c73fc8781b922cf9e4f99f8d068e6563c3820851d9390f6.js?body=1" for 127.0.0.1 at 2015-05-26 15:11:07 +0800
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2015-05-26 15:11:39 +0800
+Processing by MoviesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered movies/_form.html.erb (7.5ms)
+  Rendered movies/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 103ms (Views: 79.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2015-05-26 15:11:50 +0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 71ms (Views: 68.2ms | ActiveRecord: 0.9ms)
+
+
+Started DELETE "/movies/13" for 127.0.0.1 at 2015-05-26 15:11:57 +0800
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"tRbi08RDCh0r6VTTbJvBb8dsyGkn1xmjpSeZbNBIKGGhlrjG2eRl4hplfr16SEVVD8nUw2c4/6OwpG/Y3fjipg==", "id"=>"13"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = $1 LIMIT 1  [["id", 13]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = $1[0m  [["id", 13]]
+  [1m[35m (12.6ms)[0m  COMMIT
+  [1m[33mMovie Remove (57.4ms)[0m  {"id":13,"exception":["Elasticsearch::Transport::Transport::Errors::NotFound","[404] {\"found\":false,\"_index\":\"movies_development_20150526124515099\",\"_type\":\"movie\",\"_id\":\"13\",\"_version\":1}"]}
+[paperclip] deleting /home/onnana/Documents/ruby_files/movie-reviewer/public/system/movies/images/000/000/013/original/download_(6).jpg
+[paperclip] deleting /home/onnana/Documents/ruby_files/movie-reviewer/public/system/movies/images/000/000/013/small/download_(6).jpg
+[paperclip] deleting /home/onnana/Documents/ruby_files/movie-reviewer/public/system/movies/images/000/000/013/medium/download_(6).jpg
+[paperclip] deleting /home/onnana/Documents/ruby_files/movie-reviewer/public/system/movies/images/000/000/013/thumb/download_(6).jpg
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 214ms (Searchkick: 57.4ms | ActiveRecord: 13.7ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2015-05-26 15:11:58 +0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 70ms (Views: 67.7ms | ActiveRecord: 1.0ms)
+
+
+Started DELETE "/movies/12" for 127.0.0.1 at 2015-05-26 15:12:01 +0800
+Processing by MoviesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hYDjI6Ns9KYTpinTSka+684tlvKacBoJ0zKG3zByIW2RALk2vsubWSIqA71clTrRBoiKWNqf/AnGsXBrPcLrqg==", "id"=>"12"}
+  [1m[35mMovie Load (0.4ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = $1 LIMIT 1  [["id", 12]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "movies" WHERE "movies"."id" = $1[0m  [["id", 12]]
+  [1m[35m (337.0ms)[0m  COMMIT
+  [1m[33mMovie Remove (47.9ms)[0m  {"id":12,"exception":["Elasticsearch::Transport::Transport::Errors::NotFound","[404] {\"found\":false,\"_index\":\"movies_development_20150526124515099\",\"_type\":\"movie\",\"_id\":\"12\",\"_version\":1}"]}
+[paperclip] deleting /home/onnana/Documents/ruby_files/movie-reviewer/public/system/movies/images/000/000/012/original/download_(7).jpg
+[paperclip] deleting /home/onnana/Documents/ruby_files/movie-reviewer/public/system/movies/images/000/000/012/small/download_(7).jpg
+[paperclip] deleting /home/onnana/Documents/ruby_files/movie-reviewer/public/system/movies/images/000/000/012/medium/download_(7).jpg
+[paperclip] deleting /home/onnana/Documents/ruby_files/movie-reviewer/public/system/movies/images/000/000/012/thumb/download_(7).jpg
+Redirected to http://localhost:3000/movies
+Completed 302 Found in 410ms (Searchkick: 47.9ms | ActiveRecord: 338.0ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2015-05-26 15:12:01 +0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 67ms (Views: 65.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/movies/new" for 127.0.0.1 at 2015-05-26 15:12:04 +0800
+Processing by MoviesController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered movies/_form.html.erb (3.0ms)
+  Rendered movies/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 75ms (Views: 72.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/movies" for 127.0.0.1 at 2015-05-26 15:12:23 +0800
+Processing by MoviesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iO3LOvRlm1MwXV50VpKNjsw2yuVv8Lt9fpvNIRmYFG2cbZEv6cL0rAHRdBpAQQm0BJPWTy8fXX1rGDuVFCjeqg==", "movie"=>{"image"=>#<ActionDispatch::Http::UploadedFile:0x007f970a0e83c0 @tempfile=#<Tempfile:/tmp/RackMultipart20150526-25238-cjrne0.jpg>, @original_filename="download (6).jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"movie[image]\"; filename=\"download (6).jpg\"\r\nContent-Type: image/jpeg\r\n">, "title"=>"Avatar", "description"=>"Avatar Description", "duration"=>"2", "director"=>"Avatar Director"}, "commit"=>"Create Movie"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+Command :: file -b --mime '/tmp/ad3b889e13706d03137ea55aa81e9b0320150526-25238-d2krq5.jpg'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g3.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g3.jpg[0]'
+Command :: convert '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g3.jpg[0]' -auto-orient -resize "150x150>" '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g320150526-25238-1lbxj2b'
+Command :: file -b --mime '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g320150526-25238-1lbxj2b'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g3.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g3.jpg[0]'
+Command :: convert '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g3.jpg[0]' -auto-orient -resize "300x300>" '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g320150526-25238-1shdtmu'
+Command :: file -b --mime '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g320150526-25238-1shdtmu'
+Command :: identify -format '%wx%h,%[exif:orientation]' '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g3.jpg[0]' 2>/dev/null
+Command :: identify -format %m '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g3.jpg[0]'
+Command :: convert '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g3.jpg[0]' -auto-orient -resize "100x100>" '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g320150526-25238-q7jxai'
+Command :: file -b --mime '/tmp/64fa1f3a046a827daf6dfb68700abf3020150526-25238-1fu25g320150526-25238-q7jxai'
+  [1m[35m (0.1ms)[0m  BEGIN
+Command :: file -b --mime '/tmp/ad3b889e13706d03137ea55aa81e9b0320150526-25238-157k6v8.jpg'
+  [1m[36mSQL (53.8ms)[0m  [1mINSERT INTO "movies" ("title", "description", "duration", "director", "image_file_name", "image_content_type", "image_file_size", "image_updated_at", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11) RETURNING "id"[0m  [["title", "Avatar"], ["description", "Avatar Description"], ["duration", "2"], ["director", "Avatar Director"], ["image_file_name", "download_(6).jpg"], ["image_content_type", "image/jpeg"], ["image_file_size", 9954], ["image_updated_at", "2015-05-26 07:12:23.346644"], ["user_id", 1], ["created_at", "2015-05-26 07:12:24.348931"], ["updated_at", "2015-05-26 07:12:24.348931"]]
+  [1m[35m (31.8ms)[0m  COMMIT
+  [1m[33mMovie Store (69.7ms)[0m  {"id":14}
+Redirected to http://localhost:3000/movies/14
+Completed 302 Found in 1219ms (Searchkick: 69.7ms | ActiveRecord: 85.9ms)
+
+
+Started GET "/movies/14" for 127.0.0.1 at 2015-05-26 15:12:24 +0800
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT  "movies".* FROM "movies" WHERE "movies"."id" = $1 LIMIT 1[0m  [["id", 14]]
+  [1m[35mReview Load (0.6ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" IS NULL
+  [1m[36m (0.6ms)[0m  [1mSELECT AVG("reviews"."rating") FROM "reviews" WHERE "reviews"."movie_id" IS NULL[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "reviews" WHERE "reviews"."movie_id" = $1  [["movie_id", 14]]
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 14]]
+  Rendered reviews/_form.html.erb (3.4ms)
+  Rendered reviews/_new.html.erb (4.6ms)
+  Rendered movies/show.html.erb within layouts/application (15.2ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+Completed 200 OK in 96ms (Views: 79.0ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/assets/star-off.png" for 127.0.0.1 at 2015-05-26 15:12:24 +0800
+
+
+Started GET "/assets/star-on.png" for 127.0.0.1 at 2015-05-26 15:12:24 +0800
+
+
+Started POST "/movies/14/reviews" for 127.0.0.1 at 2015-05-26 15:12:42 +0800
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hmZCsrxBNjRqzVIfk59jssDsUXmD1JrDs+gicQd2smqS5hinoeZZy1tBeHGFTOeICElN08M7fMOma9TFCsZ4rQ==", "review"=>{"rating"=>"", "comment"=>"comment test 1"}, "commit"=>"Create Review", "movie_id"=>"14"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1[0m  [["id", 1]]
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (43.5ms)[0m  INSERT INTO "reviews" ("comment", "user_id", "movie_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"  [["comment", "comment test 1"], ["user_id", 1], ["movie_id", 14], ["created_at", "2015-05-26 07:12:42.933376"], ["updated_at", "2015-05-26 07:12:42.933376"]]
+  [1m[36m (15.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/movies/14
+Completed 302 Found in 70ms (ActiveRecord: 59.8ms)
+
+
+Started GET "/movies/14" for 127.0.0.1 at 2015-05-26 15:12:43 +0800
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" IS NULL[0m
+  [1m[35m (0.3ms)[0m  SELECT AVG("reviews"."rating") FROM "reviews" WHERE "reviews"."movie_id" IS NULL
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 14]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" = $1  [["movie_id", 14]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered reviews/_form.html.erb (2.1ms)
+  Rendered reviews/_new.html.erb (3.5ms)
+  Rendered movies/show.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 101ms (Views: 96.7ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/star-off.png" for 127.0.0.1 at 2015-05-26 15:12:43 +0800
+
+
+Started GET "/assets/star-on.png" for 127.0.0.1 at 2015-05-26 15:12:43 +0800
+
+
+Started GET "/movies" for 127.0.0.1 at 2015-05-26 15:12:48 +0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 110ms (Views: 107.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/movies/14" for 127.0.0.1 at 2015-05-26 15:12:51 +0800
+Processing by MoviesController#show as HTML
+  Parameters: {"id"=>"14"}
+  [1m[35mMovie Load (0.3ms)[0m  SELECT  "movies".* FROM "movies" WHERE "movies"."id" = $1 LIMIT 1  [["id", 14]]
+  [1m[36mReview Load (0.3ms)[0m  [1mSELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" IS NULL[0m
+  [1m[35m (0.3ms)[0m  SELECT AVG("reviews"."rating") FROM "reviews" WHERE "reviews"."movie_id" IS NULL
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "reviews" WHERE "reviews"."movie_id" = $1[0m  [["movie_id", 14]]
+  [1m[35mReview Load (0.2ms)[0m  SELECT "reviews".* FROM "reviews" WHERE "reviews"."movie_id" = $1  [["movie_id", 14]]
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  Rendered reviews/_form.html.erb (3.0ms)
+  Rendered reviews/_new.html.erb (4.5ms)
+  Rendered movies/show.html.erb within layouts/application (15.2ms)
+Completed 200 OK in 110ms (Views: 105.6ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2015-05-26 15:12:56 +0800
+Processing by MoviesController#index as HTML
+  [1m[36mMovie Load (0.4ms)[0m  [1mSELECT  "movies".* FROM "movies" LIMIT 1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1  ORDER BY "users"."id" ASC LIMIT 1  [["id", 1]]
+  [1m[36mMovie Load (0.3ms)[0m  [1mSELECT "movies".* FROM "movies"[0m
+  Rendered movies/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 70ms (Views: 67.5ms | ActiveRecord: 0.9ms)

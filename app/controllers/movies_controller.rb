@@ -11,8 +11,6 @@ class MoviesController < ApplicationController
       @movies_search = Movie.find_by(params[:title])
     end
 
-
-
   end
 
   def show
