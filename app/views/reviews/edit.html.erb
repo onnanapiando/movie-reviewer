@@ -8,10 +8,11 @@
 <%#= form_for([@movie, @movie.reviews.edit]) do |f| %>
 <%= form_for([@movie, @review], :html => { :multipart => true }) do |f| %>
 <div>
-  <div id="star-rating" data-number = <% @review.rating %> ></div>
+<div class = "star-rating" data-number = <%= @review.rating %> >
 </div>
 
- rating:<%= @review.rating %> 
+</div>
+
 
   <%#= @review.average(:ratings) %>
 
@@ -26,12 +27,16 @@
 <% end %>
 
 <script>
- $('#star-rating').raty( {
+  $('.star-rating').raty({
+    path: '/assets/',
+    readOnly: false, 
+    score: function () {
 
-  path: '/assets/',
-  scoreName: 'review[rating]'
- })
+      return $(this).attr('data-number');
+    }
 
+
+  })
 </script>
 
 <%= link_to 'Show', @movie %> |
