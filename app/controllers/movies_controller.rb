@@ -6,10 +6,12 @@ class MoviesController < ApplicationController
       @movies = Movie.all
 
     if params[:query].present?
-      @movies = Movie.search(params[:query], page: params[:page])
+      @movies_search = Movie.search(params[:query], title: params[:title])
     else
-      @movies = Movie.all.page params[:page]
+      @movies_search = Movie.find_by(params[:title])
     end
+
+    #@movies_search = 
 
   end
 

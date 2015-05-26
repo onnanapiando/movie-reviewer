@@ -2,9 +2,9 @@ class SearchController < ApplicationController
 
 def search
   if params[:q].nil?
-    @articles = []
+    @movies = []
   else
-    @articles = Article.search params[:q]
+    @movies= Movie.search params[:q]
   end
 end
 

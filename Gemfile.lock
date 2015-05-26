@@ -187,8 +187,8 @@ DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
   devise (~> 3.4.1)
-  elasticsearch-model (~> 0.1.7)
-  elasticsearch-rails (~> 0.1.7)
+  elasticsearch-model
+  elasticsearch-rails
   jbuilder (~> 2.0)
   jquery-rails
   paperclip (~> 4.2.1)
