@@ -1,9 +1,17 @@
 Rails.application.routes.draw do
 
+
   devise_for :users
   resources :movies do
-    resources :reviews, except: [:show, :index]
+    #collection do
+      #get 'search'
+    #end
+      resources :reviews, except: [:show, :index]
   end
+  root 'movies#index'
+
+  get 'search' => 'search#search'
+end 
 
 =begin
 devise_scope :user do
@@ -15,8 +23,8 @@ devise_scope :user do
   end
 end
 =end
-  root 'movies#index'
-  get '/search', to: 'search#search'
+  #root 'movies#index'
+  #get '/search', to: 'search#search'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -72,6 +80,3 @@ end
   #     resources :products
   #   end
 
-
-
-end

@@ -8,7 +8,6 @@
   </p>
 <% end %>
 
-<% if @search_movies.count > 0 %>
  
 <ul>
   <% @search_movies.each do |movie| %>
@@ -19,9 +18,3 @@
     </li>
   <% end %>
 </ul>
-
-<% else %>
-
-<h3> No results found! </h3> 
-
-<% end %>
