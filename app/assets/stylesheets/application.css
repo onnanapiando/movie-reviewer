@@ -16,7 +16,6 @@
  *= require bootstrap.min
  */
 
-body { padding-top: 100px; }
 footer { margin-top: 100px; }
 table, td, th { vertical-align: middle; border: none; }
 th { border-bottom: 1px solid #DDD; }
@@ -157,3 +156,13 @@ th { border-bottom: 1px solid #DDD; }
     top: 5px;
     border-radius:1px;
 }
+
+
+
+
+
+.panel-default {
+opacity: 0.9;
+margin-top:30px;
+}
+.form-group.last { margin-bottom:0px; }
