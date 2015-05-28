@@ -1,5 +1,20 @@
+<div class="container">
 
+            <div class="row row-margin-bottom">
+            <div class="col-md- no-padding lib-item" data-category="view">
+                <div class="lib-panel">
+                    <div class="row box-shadow">
+                        <div class="col-md-4">
+                        <div class="thumbnail">
 <%= image_tag @movie.image.url(:medium) %>
+</div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="lib-row lib-header">
+  								<%= @movie.title %>
+                                <div class="lib-header-seperator"></div>
+                            </div>
+                            <div class="lib-row lib-desc">
 
 <p>
   <strong>Title:</strong>
@@ -22,42 +37,70 @@
 </p>
 
 <p>
-	<strong>Average Rating is:</strong>
-	<%#= @average_rating %>
-<div class = "star-rating" data-number = <%= @average_rating %> ></div>
+<strong>Average Rating is:</strong>  
+</p>
 
+<div class="col-md-1">
+	<div class = "star-rating" data-number = <%= @average_rating %> ></div>
+</div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="panel panel-default widget">
+            <div class="panel-heading">
+                <span class="glyphicon glyphicon-comment"></span>
 	<strong>Comments:</strong>
 	<%= pluralize(@movie.reviews.count, "comment") %>
-	</p>
 
-
-<ul>
-
-	<% @reviews.each do |review| %>
-	<%= image_tag review.user.image.url(:thumb) %><br>
-	<em> <%= review.user.username %> commented: </em>
-	<li><%= review.comment %> 	<em> (<%= time_ago_in_words(review.updated_at) %> ago)</em>	</li>
+            </div>
+            <div class="panel-body">
+                <ul class="list-group">
+                <%= render partial: 'reviews/new' %>
+                	<% @reviews.each do |review| %>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-xs-2 col-md-1">
+                                <%= image_tag review.user.image.url(:thumb) %>
+                                </div>
+                            <div class="col-xs-10 col-md-11">
+                                <div>
+                                    <div class="mic-info">
+                                        By: <%= review.user.username %> <em> (<%= time_ago_in_words(review.updated_at) %> ago)</em>	
+                                    </div>
+                                </div>
+                                	<div class = "star-rating" data-number = <%= review.rating %> ></div> 
+                                <div class="comment-text">
+                                    <%= review.comment %> 
+                                </div>
+                                <div class="action">
 
 	<% if current_user %>
+		<% if current_user.id == review.user.id %>
+			<%= link_to "Edit Review", edit_movie_review_path(@movie, review) %><br>
 
-	<%#= review.user_id %>
-
+		<% end %>
 	<% end %>
-	<div class = "star-rating" data-number = <%= review.rating %> >
-	</div> 
 
-	<% if current_user %>
-	<% if current_user.id == review.user.id %>
-		<%= link_to "Edit Review", edit_movie_review_path(@movie, review) %><br>
+                                
+                            </div>
+                        </div>
+                    </li>
+	<% end %>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
 
-	<% end %>
-	<% end %>
-	<br>
-	<br>
-	<% end %>
-</ul>
-
-<%= render partial: 'reviews/new' %>
 
 <%= link_to 'Edit', edit_movie_path(@movie) %> |
 <%= link_to 'Back', movies_path %>
@@ -67,10 +110,7 @@
 		path: '/assets/',
 		readOnly: true, 
 		score: function () {
-
 			return $(this).attr('data-number');
 		}
-
-
 	})
 </script>
