@@ -17,6 +17,6 @@ class Movie < ActiveRecord::Base
     self.class.average(:rating).where(:genre => self.genre)
   end
   
-  searchkick
+  searchkick word_start: [:title, :director]
 end
 Movie.import # for auto sync model with elastic search

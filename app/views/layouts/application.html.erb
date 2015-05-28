@@ -1,88 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Movie Reviewer</title>
+  <title>MovieReview</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap.css">
+  <link rel="stylesheet" href="//railsgirls.com/assets/bootstrap-theme.css">
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <%= link_to "Movie Reviews", root_path, class: "navbar-brand" %>
+    </div>
 
-<% flash.each do |name, msg| %>
-  <%= content_tag(:div, msg, class: 'alert alert-info') %>
-<% end %>
-
-
- 
-<div class="container-fluid">
-
-    
-    <!-- Second navbar for search -->
-    <nav class="navbar navbar-inverse">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-3">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div class="navbar-brand"><%=link_to "Movie Reviewer", root_path %></div>
-        </div>
-    
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navbar-collapse-3">
-            <form class="navbar-form navbar-right" role="search">
-              <div class="form-group">
- 
-<%= form_tag("/search", method: "get", :class => 'form-inline', :style => 'display: inline-block; margin-left: 10px;') do text_field_tag :q, nil, class: 'form-control', placeholder: 'Search' end %>
-
-
-
-<%= link_to search_path, :class => 'button white' do %>
-
-    <span class="glyphicon glyphicon-search"></span>
-
-<% end %>
-
-
-
-
-              </div>
-
-            </form>
-
-
-          <% if user_signed_in? %>
-              <ul class="nav navbar-nav navbar-right">
-                <%#= image_tag current_user.image.url(:thumb) %> 
-                <li><%= link_to "Welcome back, " + current_user.username + "!", edit_user_registration_path %></li>
-                <li><%= link_to "Account", edit_user_registration_path %></li>
-                <li><%= link_to "Sign out", destroy_user_session_path, method: :delete %></li>
-              </ul>
-          <% else %>
-              <ul class="nav navbar-nav navbar-right">
-                <li><%= link_to "Sign in", new_user_session_path %></li>
-                <li><%= link_to "Sign up", new_user_registration_path %></li>
-              </ul>
+          <div><%= form_tag search_movies_path, method: :get, class: "navbar-form navbar-left", role: "search" do %>
+          <%= text_field_tag :search, params[:search], class: "form-control", placeholder: 'Search' %>
           <% end %>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav><!-- /.navbar -->
-    
+
+          
+          </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <% if user_signed_in? %>
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><%= link_to "Welcome back, " + current_user.username + "!", edit_user_registration_path %></li>
+                      <%#= image_tag current_user.image.url(:thumb) %>
+                      <li><%= link_to "Account", edit_user_registration_path %></li>
+                      <li><%= link_to "Sign out", destroy_user_session_path, method: :delete %></li>
+                  </ul>
+              <% else %>
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><%= link_to "Sign up", new_user_registration_path %></li>
+                      <li><%= link_to "Sign in", new_user_session_path %></li>
+                  </ul>
+              <% end %>
+              
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 <div class="container">
-<%= yield %>
+    <% flash.each do |name, msg| %>
+      <%= content_tag(:div, msg, class: "alert alert-info")%>
+    <% end %>
+    <%= yield %>
 </div>
-
-<footer>
-  <div class="container">
-    Movie Reviewer 2015
-  </div>
-</footer>
-
-
 </body>
 </html>

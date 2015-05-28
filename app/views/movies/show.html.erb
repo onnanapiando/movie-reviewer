@@ -1,4 +1,4 @@
-<p id="notice"><%= notice %></p>
+
 <%= image_tag @movie.image.url(:medium) %>
 
 <p>
@@ -23,7 +23,7 @@
 
 <p>
 	<strong>Average Rating is:</strong>
-	<%= @average_rating %>
+	<%#= @average_rating %>
 <div class = "star-rating" data-number = <%= @average_rating %> ></div>
 
 	<strong>Comments:</strong>
@@ -33,10 +33,10 @@
 
 <ul>
 
-	<% @movie.reviews.each do |review| %>
+	<% @reviews.each do |review| %>
 	<%= image_tag review.user.image.url(:thumb) %><br>
 	<em> <%= review.user.username %> commented: </em>
-	<li><%= review.comment %> 	<em> (<%= time_ago_in_words(review.created_at) %> ago)</em>	</li>
+	<li><%= review.comment %> 	<em> (<%= time_ago_in_words(review.updated_at) %> ago)</em>	</li>
 
 	<% if current_user %>
 

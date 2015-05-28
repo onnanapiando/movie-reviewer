@@ -1,26 +1,25 @@
 <% if current_user %>
 <% end %>
 
-<p id="notice"><%= notice %></p>
-<%#= image_tag user.image.url(:medium) %>
-
-
-
-
-
 <% @movies.each do |movie| %>
 
-  <div class="col-sm-6 col-md-3">
+  <div class="col-sm-6 col-md-4">
     <div class="thumbnail">
     <%= image_tag movie.image.url(:medium) %>
       <div class="caption">
         <h3><center><%= movie.title %></center></h3>
-        <p>Duration: <%= movie.duration %></p>
-        <p>Director: <%= movie.director %></p>
-        <p><%= link_to 'Show', movie %></p>
+        
+        <%#= movie.duration %>
+        <%#= movie.director %>
+
+
+
         <% if current_user %>
-        <p><%= link_to 'Edit', edit_movie_path(movie) %></p>
-        <p><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?' } %></p>
+        <p><center><button><%= link_to 'Show', movie %></button>       
+        <button><%= link_to 'Edit', edit_movie_path(movie) %></button>
+        <button><%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?' } %></button></center></p>
+        <% else %>
+        <p><center><button><%= link_to 'Show', movie %></button></center></p>
       <% end %> 
 
       </div>

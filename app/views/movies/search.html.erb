@@ -1,21 +1,19 @@
-<h1>Movies Search</h1>
- 
-<%= form_for search_path, method: :get do |f| %>
-  <p>
-    <%= f.label "Search for" %>
-    <%= text_field_tag :q, params[:q] %>
-    <%= submit_tag "Go", name: nil %>
-  </p>
-<% end %>
-
-
- 
-<ul>
-  <% @search_movies.each do |movie| %>
-    <li>
-      <h3>
-       <%= link_to movie.title, controller: "movies", action: "show", id: movie.id%>
-     </h3>
-    </li>
+<div class="row">
+  <% @movies.each do |movie| %>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <%= link_to (image_tag movie.image.url(:medium), class: 'image'), movie %>
+      </div>
+      <div id=" buttons">
+          <center>
+            <%= link_to 'Show', movie %>
+            <% if current_user %>
+            <%= link_to 'Edit', edit_movie_path(movie) %>
+            <%= link_to 'Destroy', movie, method: :delete, data: { confirm: 'Are you sure?'} %>
+            <% end %>
+          </center>
+      </div>  
+      <br>      
+    </div>
   <% end %>
-</ul>
+</div>

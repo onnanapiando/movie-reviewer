@@ -1,30 +1,14 @@
 Rails.application.routes.draw do
-
-
+  
   devise_for :users
   resources :movies do
-    #collection do
-      #get 'search'
-    #end
+    collection do
+      get 'search'
+    end
       resources :reviews, except: [:show, :index]
   end
   root 'movies#index'
-
-  get 'search' => 'search#search'
-end 
-
-=begin
-devise_scope :user do
-  authenticated :user do
-    root :to => 'movies#index'
-  end
-  unauthenticated :user do
-    root :to => 'devise/sessions#new', as: :unauthenticated_root
-  end
-end
-=end
-  #root 'movies#index'
-  #get '/search', to: 'search#search'
+end  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
