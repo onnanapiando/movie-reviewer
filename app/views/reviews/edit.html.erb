@@ -6,7 +6,8 @@
 
 
   <div class="field">
-    <div class="star-rating" data-number= <%= @review.rating %> ></div>
+     <%#= <div class="star-rating" data-number= <%= @review.rating %>
+    <div class="star-rating"></div>
   </div>
   <div class="field">
     <%= f.label :comment %><br>
@@ -18,17 +19,15 @@
 
 <% end %>
 
+
+
 <script>
-  $('.star-rating').raty({
-    path: '/assets/',
-    readOnly: false, 
-    score: function () {
+ $('.star-rating').raty( {
 
-      return $(this).attr('data-number');
-    }
+  path: '/assets/',
+  scoreName: 'review[rating]'
+ })
 
-
-  })
 </script>
 
 <%= link_to 'Show', @movie %> |

@@ -40,7 +40,12 @@
 <strong>Average Rating is:</strong>  
 </p>
 
-<div class="col-md-1">
+<style type="text/css">
+    #rating img{
+        width: auto!important;
+    }
+</style>
+<div id="rating" class="col-md-12">
 	<div class = "star-rating" data-number = <%= @average_rating %> ></div>
 </div>
                             </div>
@@ -64,12 +69,14 @@
             </div>
             <div class="panel-body">
                 <ul class="list-group">
+<% if current_user %>
                 <%= render partial: 'reviews/new' %>
+<% end %>
                 	<% @reviews.each do |review| %>
                     <li class="list-group-item">
                         <div class="row">
                             <div class="col-xs-2 col-md-1">
-                                <%= image_tag review.user.image.url(:thumb) %>
+                                <%= image_tag review.user.image.url(:thumb), :class => "img-circle img-responsive" %>
                                 </div>
                             <div class="col-xs-10 col-md-11">
                                 <div>
@@ -86,7 +93,6 @@
 	<% if current_user %>
 		<% if current_user.id == review.user.id %>
 			<%= link_to "Edit Review", edit_movie_review_path(@movie, review) %><br>
-
 		<% end %>
 	<% end %>
 
