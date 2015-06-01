@@ -3,11 +3,6 @@ class ReviewsController < ApplicationController
   before_action :authenticate_user!
   before_action :set_movie
 
-=begin
-  def new
-    @review = current_user.reviews.build
-  end
-=end
   def new
     @review = Review.new
   end

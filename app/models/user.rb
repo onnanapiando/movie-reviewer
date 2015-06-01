@@ -7,8 +7,7 @@ class User < ActiveRecord::Base
   has_many :reviews
   
   attr_accessor :login, :image
-  #attr_accessor :email, :image
-
+	
 	def self.find_first_by_auth_conditions(warden_conditions)
 	  conditions = warden_conditions.dup
 	  if login = conditions.delete(:login)
@@ -28,7 +27,6 @@ class User < ActiveRecord::Base
 	    :case_sensitive => false
 	  } # etc.
     
-	#attr_accessible :image
 
     has_attached_file :image, :styles => {small: "150x150>", :medium => "300x300>", :thumb => "100x100>" }
   	validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/

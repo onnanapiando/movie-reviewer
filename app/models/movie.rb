@@ -12,10 +12,6 @@ class Movie < ActiveRecord::Base
 
   include Elasticsearch::Model
   include Elasticsearch::Model::Callbacks
-
-  def average_rating
-    self.class.average(:rating).where(:genre => self.genre)
-  end
   
   searchkick word_start: [:title, :director]
 end
