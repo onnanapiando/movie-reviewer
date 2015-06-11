@@ -21,8 +21,7 @@ default: &default
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
 
-development:
-  <<: *default
+development:  
   database: movie-reviewer_development
   username: postgres
   password: postgres
@@ -56,8 +55,7 @@ development:
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-test:
-  <<: *default
+test:  
   database: movie-reviewer_test
   username: postgres
   password: PostgreSQL
@@ -82,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: movie-reviewer_production
-  username: postgres
-  password: postgres
+  database: daphcgj2q4u8ll
+  username: uuzytktqsufser
+  password: f-rTDBs6XWiEj5gJMzL4aLX_E1
