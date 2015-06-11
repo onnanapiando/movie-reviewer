@@ -22,6 +22,7 @@ default: &default
   pool: 5
 
 development:  
+  <<: *default
   database: movie-reviewer_development
   username: postgres
   password: postgres
