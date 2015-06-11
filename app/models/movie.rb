@@ -14,5 +14,10 @@ class Movie < ActiveRecord::Base
   include Elasticsearch::Model::Callbacks
   
   searchkick word_start: [:title, :director]
+
+  def image_url
+  	image.url
+  end
+
 end
 Movie.import # for auto sync model with elastic search

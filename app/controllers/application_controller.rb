@@ -3,7 +3,21 @@ class ApplicationController < ActionController::Base
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
   before_action :configure_permitted_parameters, if: :devise_controller?
+  before_filter :cors_preflight
+  after_filter :cors_set_control_headers
 
+  def cors_set_control_headers
+    headers['Access-Control-Allow-Origin'] = '*'
+    headers['Access-Control-Allow-Methods'] = 'POST, GET, OPTIONS'
+    headers['Access-Control-Request-Method'] = '*'
+  end
+
+  def cors_preflight
+    if request.method == :options
+      render json: { status: "ok"}, status: :ok
+    end
+  end
+  
   protected
 
   def configure_permitted_parameters

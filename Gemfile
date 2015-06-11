@@ -48,5 +48,6 @@ group :development, :test do
   gem 'elasticsearch-model'
   gem 'elasticsearch-rails'
 
+  gem 'rails_12factor'
 end
 
